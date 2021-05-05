@@ -1,0 +1,146 @@
+
+{
+	margin: 0;
+	padding: 0;
+
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/hqdefault.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	overflow-x: hidden;
+}
+
+
+.back-wheel{
+	left: 300px;
+	margin: 50px;
+	bottom: 200px;
+	height: 110px;
+	width: 120px;
+	position: absolute;
+	animation-name: stretch;
+    animation-duration: 1.8s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+}
+.box{
+	left: 350px;
+	margin: 50px;
+	bottom: 5px;
+	height: 70px;
+	width: 90px;
+	position: absolute;
+	animation-name: kete;
+    animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes kete {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+}
+
+.second{
+	left: 20px;
+	margin: 40px;
+	bottom: 210px;
+	height: 70px;
+	width: 110px;
+	position: absolute;
+	animation-name: second;
+    animation-duration: 1.8s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes second {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+.and{
+	left: 800px;
+	margin: 50px;
+	bottom: 100px;
+	height: 110px;
+	width: 120px;
+	position: absolute;
+	background-image: url(../img/hqdefault.jpg);
+	animation-name: stretch;
+    animation-duration: 1.8s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+	
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: black;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.4);
+
+  }
+}
